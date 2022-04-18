@@ -1,1 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.intro {
+  height: 50vh;
+  color: white;
+  text-align: center;
+  background-image: url("img/burgerKnife.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax {
+  background-image: url("img/phonePicOfFood.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.parallax * {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 2%;
+  height: 10%;
+}
+
+.parallax > h2 {
+  padding-top: 10%;
+}
