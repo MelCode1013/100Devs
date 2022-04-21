@@ -51,6 +51,12 @@ section.aboutUs > p {
   justify-content: center;
   align-content: center;
 }
+.videos {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
 
 button {
   font-weight: bold;
