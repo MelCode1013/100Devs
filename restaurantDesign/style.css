@@ -97,6 +97,7 @@ button:hover {
     width: 100%;
     padding: 5%;
     color: rgb(164, 0, 0);
+    margin: 5px 0;
   }
 
   .drinksMenu {
