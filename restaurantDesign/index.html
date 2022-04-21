@@ -26,12 +26,29 @@
             will delight your tastebuds and keep you coming back for more.</p>
     </section>
     <section class="menu">
-        <button class="foodMenu">Food Menu</button>
-        <button class="drinksMenu">Drinks Menu</button>
-        <button class="kidMenu">Kid Menu</button>
+        <button id="foodMenuButton">Food Menu</button>
+        <button id="drinksMenuButton">Drinks Menu</button>
+        <button id="kidMenuButton">Kid Menu</button>
 
 
     </section>
+    <div class="videos"><video class="hidden" id="foodMenu" width="375" height="auto" autoplay muted>
+            <source src="menus/Food MENU.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            <!-- Text to be shown incase browser doesnt support html5 -->
+        </video>
+        <video class="hidden" id="drinkMenu" width="375" height="auto" autoplay muted>
+            <source src="menus/cocktail MENU.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            <!-- Text to be shown incase browser doesnt support html5 -->
+        </video>
+        <video class="hidden" id="kidMenu" width="375" height="auto" autoplay muted>
+            <source src="menus/kid MENU.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            <!-- Text to be shown incase browser doesnt support html5 -->
+        </video>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
