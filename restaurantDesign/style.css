@@ -77,13 +77,13 @@ button:hover {
 
 @media screen and (min-width: 375px) {
   section.aboutUs > h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding-top: 3%;
   }
 
   section.aboutUs > p {
-    padding: 0 8% 8% 1%;
-    font-size: 0.8rem;
+    padding: 2% 9%;
+      font-size: 2rem;
   }
 
   .menu {
